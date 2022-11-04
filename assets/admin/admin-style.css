@@ -1,0 +1,59 @@
+.noor-loader {
+    display: none;
+    margin: 0 auto;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    margin-top: -65px;
+}
+.noor-image-loader {
+    margin: 0 auto;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin-top: 100px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+.NoorMediaTabContent .images-area .image-item {
+    display: inline-block;
+}
+.NoorMediaTabContent .images-area img {
+    width: 220px;
+    height: 225px;
+    padding: 10px;
+}
+.NoorMediaTabContent .images-area .image-item .noor-image-button {
+    margin: 0 10px 30px 12px;
+    cursor: pointer;
+    background: #c8d1cb;
+    text-align: center;
+    padding: 5px;
+}
+.NoorMediaTabContent .images-area .no-images-found {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.NoorMediaTabContent .image-search-area {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.NoorMediaTabContent .image-search-area .input, .NoorMediaTabContent .image-search-area .submit {
+    display: inline-block;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
